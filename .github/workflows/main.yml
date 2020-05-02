@@ -6,7 +6,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-     steps:
+    steps:
      - name: Deploy to LeanEngine
        uses: enflo/curl-action@v1.2
        with:
